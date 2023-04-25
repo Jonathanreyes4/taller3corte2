@@ -1,4 +1,4 @@
-// main.dart
+
 
 import 'package:flutter/material.dart';
 
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fibonacci Calculator',
+      title: 'Fibonacci Calculadora',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -46,7 +46,7 @@ class _FibonacciPageState extends State<FibonacciPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Fibonacci Calculator'),
+        title: Text('Fibonacci Calculadora'),
       ),
       body: Center(
         child: Column(
